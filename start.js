@@ -881,7 +881,7 @@ function createStart() {
 
     let userX = 100;
     let userY = 620;
-    let moveSpeed = 20;
+    let moveSpeed = 8;
     let currentMap = 1;
     //let currentMap = 6; // for a test
     let mapSwitched = false; // 맵이 전환된 상태를 추적
