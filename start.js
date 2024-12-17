@@ -881,7 +881,7 @@ function createStart() {
 
     let userX = 100;
     let userY = 620;
-    let moveSpeed = 8;
+    let moveSpeed = 20;
     let currentMap = 1;
     //let currentMap = 6; // for a test
     let mapSwitched = false; // 맵이 전환된 상태를 추적
@@ -1184,7 +1184,7 @@ function createStart() {
                 image(home, 0, 0);
                 image(homeDoor, 0, 0);
                 image(homeMirror, 0, 0);
-                
+
                 image(homePoster, 0, 0);
                 image(chair, 520, 380);
                 image(table, 350, 380);

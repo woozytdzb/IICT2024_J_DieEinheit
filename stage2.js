@@ -142,7 +142,7 @@ function createStage2() {
                         return "stage3";
                     } else {
                         resetStage2();
-                        return "stage4";
+                        return "stage3";
                     }
                 } else {
                     if (map3Selection === 'up') {
@@ -675,8 +675,8 @@ function createStage2() {
         stepInScene = 1;
         sceneSwitched = false;
 
-        starscore = 0;
-        moneyscore = 0;
+        // starscore = 0;
+        // moneyscore = 0;
 
         if (soundNightCity.isPlaying()) {
             soundNightCity.stop();

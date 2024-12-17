@@ -1,4 +1,4 @@
-let curStage = "stage2";
+let curStage = "cutscene";
 const stages = {
     "cutscene": cutScene,
     "start": start,

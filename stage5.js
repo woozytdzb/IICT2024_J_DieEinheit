@@ -54,8 +54,7 @@ class ego {
             triangle(1083, 839, 1149, 839, 1116, 871);
         }
     }
-    
-    let items = [];
+
     
     let back_0, back_1, back_2, front_0, front_1, front_2, left_0, left_1, left_2, right_0, right_1, right_2;
     
@@ -125,37 +124,44 @@ class ego {
     
     }
     
+    let items = [];
+    let loopyloopy = true;
+    
     function _setup() {
         createCanvas(1200, 900);
         myego = new ego(600,300+star1.height/2,160,0);
         frameRate(30);
-        for (let i=0; i<starscore; i++) {
-            console.log('i am pushed, star');
-            items.push(i_star);
-        }
-
-        if (heartscore ==1) {
-            console.log('i am pushed, heart');
-            items.push(i_heart);
-        }
-
-        if(moneyscore == 1) {
-            console.log('i am pushed, money');
-            items.push(i_money);
-        }
-
-        if (clockscore == 1) {
-            console.log('i am pushed, clock');
-            items.push(i_clock);
-        }
-
-        items.push(i_candy);
-
     }
     
     function _draw() {
         console.log('starscore: '+starscore+' clockscore: '+clockscore+' moneyscore: '+moneyscore+' heartscore: '+heartscore);
 
+        if (loopyloopy){
+            for (let i=0; i<starscore; i++) {
+                console.log('i am pushed, star');
+                items.push(i_star);
+            }
+    
+            if (heartscore ===1) {
+                console.log('i am pushed, heart');
+                items.push(i_heart);
+            }
+    
+            if(moneyscore === 1) {
+                console.log('i am pushed, money');
+                items.push(i_money);
+            }
+    
+            if (clockscore === 1) {
+                console.log('i am pushed, clock');
+                items.push(i_clock);
+            }
+    
+            items.push(i_candy);
+            console.log(loopyloopy);
+            loopyloopy = false;
+            console.log(loopyloopy);
+        }
         if (resetting) {
             return "cutscene";
         }
