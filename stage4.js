@@ -503,7 +503,7 @@ function createStage4() {
       p_right_2 = loadImage("asset/character_pouch/right_2.png");
     
       namu = loadFont("asset/namu.ttf");
-      myeongjo = loadFont("asset/Nanummyeongjo.ttf");
+      myeongjo = loadFont("asset/NanumMyeongjo.ttf");
     
       road = loadImage("asset/road.png");
       roadwd = loadImage("asset/roadwd.png");
