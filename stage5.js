@@ -92,7 +92,7 @@ class ego {
         right_2 = loadImage("asset/character_normal/right_2.png");
     
         namu = loadFont("asset/namu.ttf");
-        myeongjo = loadFont("asset/NanumMyeongjo.ttf");
+        myeongjo = loadFont('assets/fonts/NanumMyeongjo.ttf');
     
         portrait = loadImage("asset/mc.png");
         

@@ -25,7 +25,7 @@ function createStage6() {
         ending5 = loadImage("asset/ending/ending5.png");
 
         lush = loadFont("asset/Lush.ttf");
-        myeongjo = loadFont("asset/NanumMyeongjo.ttf");
+        myeongjo = loadFont('assets/fonts/NanumMyeongjo.ttf');
     }
     
     function _setup() {

@@ -729,7 +729,7 @@ function createStage3() {
       monfade_6 = loadImage("asset/fade/monfade_6.png");
     
       namu = loadFont("asset/namu.ttf");
-      myeongjo = loadFont("asset/NanumMyeongjo.ttf");
+      myeongjo = loadFont('assets/fonts/NanumMyeongjo.ttf');
     
       array = loadImage("asset/array.png")
       classfloor = loadImage("asset/classfloor.png");
