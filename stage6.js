@@ -95,6 +95,7 @@ function createStage6() {
             heartscore = 0;
             moneyscore = 0;
             clockscore = 0;
+            loopyloopy = false;
             resetting = true;
         }
     }
