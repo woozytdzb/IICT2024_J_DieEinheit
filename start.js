@@ -2250,6 +2250,10 @@ function createStart() {
 
             if (mouseIsPressed && mouseX >= 10 && mouseX <= 130 && mouseY >= 10 && mouseY <= 60) {
                 resetStart();
+                starscore = 0;
+                heartscore = 0;
+                moneyscore = 0;
+                clockscore = 0;
                 return "cutscene";
             }
         }

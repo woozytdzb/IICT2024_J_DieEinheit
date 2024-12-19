@@ -1322,6 +1322,11 @@ function createStage2() {
 
         if (currentMap === 2 || currentMap === 3) {
             if (mouseIsPressed && mouseX >= 10 && mouseX <= 130 && mouseY >= 10 && mouseY <= 60) {
+                starscore = 0;
+                heartscore = 0;
+                moneyscore = 0;
+                clockscore = 0;
+
                 resetStage2();
                 return "cutscene";
             }
