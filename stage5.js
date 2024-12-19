@@ -158,7 +158,6 @@ class ego {
             }
     
             items.push(i_candy);
-            console.log(loopyloopy);
             loopyloopy = false;
             console.log(loopyloopy);
         }
